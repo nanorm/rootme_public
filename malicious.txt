@@ -1,3 +1,5 @@
 <?php
-  echo "Fine I am finally in";
+  echo "Fine I am finally in 2<br/>";
+  $p = file_get_contents('./index.php');
+  echo base64_encode($p);
 ?>
