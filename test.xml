@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE results [<!ENTITY harmless "completely harmless">]>
+<results>
+    <result>This result is &harmless;</result>
+</results>
