@@ -1,0 +1,8 @@
+<rss version="2.0">
+<channel>
+    <title>TITLE</title>
+    <link>LINK</link>
+    <description>DESCRIPTION</description>
+    <item>Toto</item>
+</channel>
+</rss>
