@@ -6,8 +6,5 @@
     <link>LINK</link>
     <description>DESCRIPTION</description>
     <item>Toto</item>
-    <results>
-        <result>This is the result: &harmless;</result>
-    </results>
 </channel>
 </rss>
