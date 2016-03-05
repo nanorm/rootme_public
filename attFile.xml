@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE results [<!ENTITY harmless SYSTEM "file:///var/www/config.ini">]>
+<!DOCTYPE results [<!ENTITY harmless SYSTEM "file://">]>
 <results>
     <result>&harmless;</result>
 </results>
