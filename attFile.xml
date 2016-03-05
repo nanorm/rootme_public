@@ -1,5 +1,10 @@
-<?xml version="1.0"?>
-<!DOCTYPE results [<!ENTITY harmless "completely harmless">]>
-<results>
-    <result>This result is &harmless;</result>
-</results>
+<rss version="2.0">
+<channel>
+    <title>XUL</title>
+    <link>http://www.xul.fr</link>
+    <description></description>
+    <item>
+    ...
+    </item>
+</channel>
+</rss>
