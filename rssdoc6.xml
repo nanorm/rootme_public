@@ -7,7 +7,7 @@
     <description>DESCRIPTION</description>
     <item>
         <description>ITEM DESCRIPTION</description>
-        <foo>salut</foo>
+        <title>salut</title>
     </item>
 </channel>
 </rss>
