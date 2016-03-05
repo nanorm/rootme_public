@@ -5,6 +5,8 @@
     <title>TITLE</title>
     <link>LINK</link>
     <description>DESCRIPTION</description>
-    <item>&harmless;</item>
+    <item>
+        <title>&harmless;</title>
+        <description>ITEM DESCRIPTION</description>
 </channel>
 </rss>
