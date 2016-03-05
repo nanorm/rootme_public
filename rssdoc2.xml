@@ -1,15 +1,13 @@
 <?xml version="1.0" ?>
 <!DOCTYPE results [<!ENTITY harmless "completely harmless">]>
-
-<results>
-    <result>This is the result: &harmless;</result>
-</results>
-
 <rss version="2.0">
 <channel>
     <title>TITLE</title>
     <link>LINK</link>
     <description>DESCRIPTION</description>
     <item>Toto</item>
+    <results>
+        <result>This is the result: &harmless;</result>
+    </results>
 </channel>
 </rss>
