@@ -1,4 +1,5 @@
 <rss version="2.0">
+    <!DOCTYPE channel [<!ENTITY harmless "completely harmless">]>
 <channel>
     <title>XUL</title>
     <link>http://www.xul.fr</link>
