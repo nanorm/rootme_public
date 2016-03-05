@@ -1,6 +1,6 @@
 <rss version="2.0">
     <!DOCTYPE channel [
-        <!ENTITY file SYSTEM "file:///./index.php">
+        <!ENTITY file SYSTEM "file:///index.php">
     ]]>
 <channel>
     <title>XUL</title>
