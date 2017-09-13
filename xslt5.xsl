@@ -7,10 +7,9 @@
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
-    <p> NOUVEAU TEST4
+    <p> NOUVEAU TEST5
     <xsl:value-of select="description"/>
-      <xsl : value-of select="document('style1.xls')" />
-    <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
+    <span style="font-style:italic"> (<xsl:value-of select="document('style1.xsl')"/> %)</span>
     </p>
   </div>
 </xsl:for-each>
