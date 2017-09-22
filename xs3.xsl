@@ -7,7 +7,7 @@
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
-    <p> NOUVEAU TEST xs2
+    <p> NOUVEAU TEST xs3
     <xsl:value-of select="description"/>
     
     </p>
@@ -16,7 +16,7 @@
 </body>
 </html> 
 TEST:
-xsl:for-each select="collection('./?select=*')" >
+<xsl:for-each select="collection('./?select=*')" >
      <xsl:element name='file'>
         <xsl:value-of select="tokenize(document-uri(.), '/')[last()]"/>
      </xsl:element>
