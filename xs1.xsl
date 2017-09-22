@@ -7,7 +7,7 @@
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
-    <p> NOUVEAU TEST 12
+    <p> NOUVEAU TEST xs1
     <xsl:value-of select="description"/>
     
     </p>
@@ -15,7 +15,7 @@
 </xsl:for-each>
 </body>
 </html> 
-
+TEST:
 <xsl:for-each select="for $filename in collection(concat('http://challenge01.root-me.org/web-serveur/ch50/', select='*.*')) return $filename " >
             <gmd:name>
                 <gco:CharacterString>
