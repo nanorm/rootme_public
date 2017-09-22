@@ -7,12 +7,12 @@
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
-    <p> NOUVEAU TEST 11
+    <p> NOUVEAU TEST 12
     <xsl:value-of select="description"/>
     
     </p>
   </div>
 </xsl:for-each>
-  <span> (<xsl:value-of select="unparsed-entity-uri('index.php')"/> %)</span>
+  <span> test => (<xsl:value-of select="unparsed-entity-uri('/index.php')"/> %)</span>
 </body>
 </html> 
