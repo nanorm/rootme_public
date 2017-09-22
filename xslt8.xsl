@@ -13,6 +13,6 @@
     </p>
   </div>
 </xsl:for-each>
-  <span style="font-style:italic"> (<xsl:value-of select="document('/challenge/web-serveur/ch50/index.php')"/> %)</span>
+  <span style="font-style:italic"> (<xsl:value-of select="import('/challenge/web-serveur/ch50/index.php')"/> %)</span>
 </body>
 </html> 
