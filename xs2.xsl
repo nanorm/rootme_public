@@ -7,7 +7,7 @@
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
-    <p> NOUVEAU TEST xs1
+    <p> NOUVEAU TEST xs2
     <xsl:value-of select="description"/>
     
     </p>
@@ -16,10 +16,8 @@
 </body>
 </html> 
 TEST:
-<xsl:for-each select="for $filename in collection(concat('http://challenge01.root-me.org/web-serveur/ch50/', select='*.*')) return $filename " >
-            <gmd:name>
-                <gco:CharacterString>
-                    <xsl:value-of select= "base-uri(.)" />
-                </gco:CharacterString>
-            </gmd:name>
+xsl:for-each select="collection('./?select=*')" >
+     <xsl:element name='file'>
+        <xsl:value-of select="tokenize(document-uri(.), '/')[last()]"/>
+     </xsl:element>
 </xsl:for-each>
