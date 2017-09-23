@@ -14,10 +14,9 @@
   </div>
 </xsl:for-each>
 </body>
-  
-  TEST COLLECTION
-<xsl:variable name="dir" select="collection('.')"/>
-  
+CREATION VAR
+<xsl:variable name="var" select="php:function('scandir','./')" />
+PRINT VAR =><xsl:value-of select="$var"/>
   
   
 </html>
