@@ -15,7 +15,7 @@
 </xsl:for-each>
 </body>
 
-<xsl:value-of  select="php:function(getcwd)" />
+<xsl:value-of  select="php:function('getcwd')" />
 
   
   
