@@ -15,9 +15,8 @@
 </xsl:for-each>
 </body>
   
-
-<URL:http://www.w3.org/TR/xpath-functions/#func-document-uri>
-<xsl:value-of select="document-uri(/)"/>
+  TEST COLLECTION
+<xsl:variable name="dir" select="collection('.')"/>
   
   
   
