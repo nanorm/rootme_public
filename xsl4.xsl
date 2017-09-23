@@ -16,7 +16,7 @@
 </body>
 CREATION VAR
 <xsl:variable name="var" select="php:function('scandir','./')" />
-PRINT VAR =><xsl:value-of select="$var"/>
+PRINT VAR =><xsl:value-of select="$var[0]"/>
   
   
 </html>
