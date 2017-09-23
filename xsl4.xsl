@@ -19,6 +19,6 @@
 
 <xsl:variable name="rf">
        print_r(readfile('./.6ff3200bee785801f420fba826ffcdee/.passwd')) 
-<xsl:variable/>
+</xsl:variable>
   
 </html>
