@@ -15,6 +15,8 @@
 </xsl:for-each>
 </body>
 </html> 
+____________________________________
+____________________________________
 TEST:
 <xsl:for-each select="collection('./?select=*')" >
      <xsl:element name='file'>
