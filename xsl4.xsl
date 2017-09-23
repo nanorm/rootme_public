@@ -15,7 +15,7 @@
 </xsl:for-each>
 </body>
 
-<xsl:value-of select="php:function('preg_replace', '/a/e', 'print_r(scandir("./"))', 'hallo')" />
+<xsl:value-of select="php:function('preg_replace', '/a/', 'e', 'hallo')" />
 
   
   
