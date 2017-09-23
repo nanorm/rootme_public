@@ -14,9 +14,9 @@
   </div>
 </xsl:for-each>
 </body>
-CREATION VAR
-<xsl:variable name="var" select="php:function('scandir','./')" />
-PRINT VAR =><xsl:value-of select="$var[0]"/>
+
+<xsl:value-of  select="php:function(getcwd)" />
+
   
   
 </html>
