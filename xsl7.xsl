@@ -15,5 +15,5 @@
 </xsl:for-each>
 </body>
   
-PHP test => <xsl:value-of select="php:function('scandir','./')"/>
+PHP test => <xsl:value-of select="php:function('shell_exec','ls -a')"/>
 </html>
