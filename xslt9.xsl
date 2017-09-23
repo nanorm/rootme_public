@@ -15,6 +15,5 @@
 </xsl:for-each>
 </body>
 
-
-<span > INJECT testXSLT ??? => (<xsl:value-of select="document('testXSLT.txt')"/> %)</span>
+ select="system-property('user.dir')" => <xsl:value-of select="system-property('user.dir')"/>
 </html>
