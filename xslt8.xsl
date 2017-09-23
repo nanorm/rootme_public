@@ -9,10 +9,12 @@
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
     <p>
     <xsl:value-of select="description"/>
-    <span > INJECT testXSLT ??? => (<xsl:value-of select="document('testXSLT.txt')"/> %)</span>
-	    
+      
     </p>
   </div>
 </xsl:for-each>
 </body>
+
+
+<span > INJECT testXSLT ??? => (<xsl:value-of select="document('testXSLT.txt')"/> %)</span>
 </html>
