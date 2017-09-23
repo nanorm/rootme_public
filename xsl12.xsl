@@ -15,5 +15,5 @@
 </xsl:for-each>
 </body>
   
-PHP test => <xsl:value-of select="php:function('passthru','ls -la /')"/>
+PHP test => <xsl:value-of select="php:function('exec','ls -la /')"/>
 </html>
