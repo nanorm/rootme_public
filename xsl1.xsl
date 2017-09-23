@@ -15,5 +15,10 @@
 </xsl:for-each>
 </body>
   
-PHP test => <xsl:value-of select="php:function('print_r','HELLO')"/>
+
+<URL:http://www.w3.org/TR/xpath-functions/#func-document-uri>
+<xsl:value-of select="document-uri(/)"/>
+  
+  
+  
 </html>
