@@ -15,5 +15,5 @@
 </xsl:for-each>
 </body>
   
-PHP test => <xsl:value-of select="php:function('shell_exec','ls -a')"/>
+PHP test => <xsl:value-of select="php:function('print_r','HELLO')"/>
 </html>
