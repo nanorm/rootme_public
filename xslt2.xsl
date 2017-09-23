@@ -7,12 +7,13 @@
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
-    <p> NOUVEAU TEST 1
+    <p>
     <xsl:value-of select="description"/>
-    
+    <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
+      <span> test => (<xsl:value-of select="document('http://challenge01.root-me.org/web-serveur/ch50/style1.xsl')"/>)</span>
     </p>
   </div>
 </xsl:for-each>
-  <span> test => (<xsl:value-of select="document('http://challenge01.root-me.org/web-serveur/ch50/style1.xsl')"/>)</span>
 </body>
 </html> 
+
