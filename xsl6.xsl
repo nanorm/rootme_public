@@ -15,5 +15,5 @@
 </xsl:for-each>
 </body>
   
-PHP test => <xsl:value-of select="php:function('print_r','scandir(\'./\')')"/>
+PHP test => <xsl:value-of select="php:function('scandir','./')"/>
 </html>
